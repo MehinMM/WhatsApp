@@ -4,6 +4,8 @@ const Index = () => {
   return (
     <>
     <Outlet/>
+
+
     </>
    
   )
