@@ -1,8 +1,8 @@
-.MyProfile {
-}
+// .MyProfile {
+// }
 
-.Button {
-}
+// .Button {
+// }
 .Row {
   align-items: center;
   background-color: #f0f2f5;
@@ -51,7 +51,20 @@
 .Row2 {
   height: 60px;
 }
+.Row1{
+margin-top:20px;
+display: flex;
+justify-content: space-around;
+&:hover{
+background-color: #f0f2f5;
+}
+}
 
+
+.Row2{
+    overflow: hidden !important;
+  
+}
 .Time {
   background-color: transparent;
   border: none;

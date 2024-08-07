@@ -11,10 +11,10 @@ import { MdAddComment, MdOutlineMoreVert } from "react-icons/md";
 
 const content = (
   <div className={style.center2}>
-
-    <MyButton.Btn1>Biznes Aletleri</MyButton.Btn1>
+    <p>salam</p>
+    {/* <MyButton.Btn1>Biznes Aletleri</MyButton.Btn1>
     <MyButton.Btn1>Yeni Qrup</MyButton.Btn1>
-    <MyButton.Btn1>Facebookda Reklam edin</MyButton.Btn1>
+    <MyButton.Btn1>Facebookda Reklam edin</MyButton.Btn1> */}
   </div>
 );
 const Index = () => {
