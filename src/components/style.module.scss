@@ -1,78 +1,81 @@
-.MyProfile{
-
+.MyProfile {
 }
 
-.Button{
-
+.Button {
 }
-.Row{
-    align-items: center;
-    background-color: #f0f2f5;
-    padding: 10px 0;
-
-
+.Row {
+  align-items: center;
+  background-color: #f0f2f5;
+  padding: 10px 0;
 }
-.Img{
-    border-radius: 50%;
-    margin-left: 15px;
-    
+.Img {
+  border-radius: 50%;
+  margin-left: 15px;
 }
 
-.Input{
-    margin-top: 5px;
-    background-color: #f0f2f5 !important;
+.Input {
+  margin-top: 5px;
+  background-color: #f0f2f5 !important;
 }
-.Input::placeholder{
-    color: red !important;
-    font-size: 20px;
-}
-
-.RowAr{
-    display: flex;
-    height: 50px;
-    margin-top: 10px;
-    box-shadow: 0 0 0 .5px lightgray;
-    border-top: .5px solid lightgray;
+.Input::placeholder {
+  color: red !important;
+  font-size: 20px;
 }
 
-.center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-    h4, h5{
-      
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    h4{
-       
-        width: 100%;
-        text-align: left;
-        text-indent: 30px;
-    }
+.RowAr {
+  display: flex;
+  height: 50px;
+  margin-top: 10px;
+  box-shadow: 0 0 0 0.5px lightgray;
+  border-top: 0.5px solid lightgray;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-
-.Col1Ar{
-    // display: flex;
-    // justify-content: space-around;
-    // align-items: center;
-    // height: 50px;
-    // padding-bottom: 10px;
-    // background-color: red;
- 
+  h4,
+  h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h4 {
+    width: 100%;
+    text-align: left;
+    text-indent: 30px;
+  }
 }
 
-.Col2Ar{
+.Row1,
+.Row2 {
+  height: 60px;
+}
 
-        // display: flex;
-        // justify-content: flex-end;
-        // align-items: center;
-        // height: 50px;
-        // padding-right: 10px;
-        // padding-bottom: 10px;
+.Time {
+  background-color: transparent;
+  border: none;
+  width: 51px;
+
+  svg {
+    display: none;
+  }
+}
+
+.Image {
+  border-radius: 50%;
+}
+
+.center1 {
+  display: flex;
+  justify-content: flex-between;
+  align-items: start;
+}
+
+.center2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex-direction: column;
 
 }

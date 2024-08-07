@@ -1,15 +1,15 @@
 import React from 'react';
-import { Layout,Row,Col } from 'antd';
+import { Layout} from 'antd';
 import styles from './style.module.scss'
-import { Myprofile,MyInput,Archiv } from '../components';
+import { Myprofile,MyInput,Archiv,User } from '../components';
 
 const Index = () => {
   return (
-    <Layout.Sider className={styles.menu} theme='light' width={400}>
+    <Layout.Sider theme='light' width={400}>
       <Myprofile/>
       <MyInput/>
       <Archiv/>
-    
+      <User/>
     </Layout.Sider>
   )
 }
