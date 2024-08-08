@@ -25,10 +25,11 @@ const Index = () => {
           className={style.Img}
           width={50}
           height={50}
+          preview={false}
           src="https://picsum.photos/seed/picsum/50/50"
         />
       </Col>
-      <Col span={20} align="end">
+      <Col span={20} align="end" className={style.MyBut}>
         <MyButton icon={<TfiAnnouncement />} />
         <MyButton icon={<IoMdPersonAdd />} />
         <MyButton icon={<SiAirplayaudio />} />

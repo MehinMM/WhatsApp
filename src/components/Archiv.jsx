@@ -17,7 +17,7 @@ const Index = () => {
       </Col>
 
       <Col span={2} className={style.center}>
-        <Typography.Title level={5} color="#08c">
+        <Typography.Title level={4} color="#08c">
        
           1
         </Typography.Title>

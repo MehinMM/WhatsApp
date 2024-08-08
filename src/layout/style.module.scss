@@ -14,3 +14,14 @@ body{
   
 }
 
+.Sider{
+    overflow: auto;
+}
+.Sider::-webkit-scrollbar{
+    background-color:rgb(213, 213, 213);
+    width: 10px;
+    border-radius: 20px;
+}
+.Sider::-webkit-scrollbar-button{
+    height: 50px
+}

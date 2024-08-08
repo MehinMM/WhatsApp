@@ -7,7 +7,14 @@
   align-items: center;
   background-color: #f0f2f5;
   padding: 10px 0;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+
 }
+
+
 .Img {
   border-radius: 50%;
   margin-left: 15px;
@@ -34,61 +41,87 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 60px;
+  width: 100%;
 
   h4,
   h5 {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  h4 {
+      margin-top: 0;
+      margin-bottom: 0;
+}
+
+h3,h5{
     width: 100%;
     text-align: left;
     text-indent: 30px;
+    margin-top: 0;
+      margin-bottom: 0;
   }
 }
+
 
 .Row1,
 .Row2 {
   height: 60px;
 }
-.Row1{
-margin-top:20px;
-display: flex;
-justify-content: space-around;
-&:hover{
-background-color: #f0f2f5;
-}
-}
 
-
-.Row2{
-    overflow: hidden !important;
-  
-}
-.Time {
-  background-color: transparent;
-  border: none;
-  width: 51px;
-
-  svg {
-    display: none;
+.Row1 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  &:hover {
+    background-color: #f0f2f5;
   }
+}
+
+.Row2 {
+  overflow: hidden !important;
 }
 
 .Image {
   border-radius: 50%;
+
 }
 
 .center1 {
   display: flex;
-  justify-content: flex-between;
+  height: 60px;
   align-items: start;
+  justify-content: center;
+  flex-direction: column;
+ 
+
+  h4{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 
 .center2 {
   display: flex;
-  justify-content: space-around;
   align-items: start;
   flex-direction: column;
+}
 
+.Row1:hover .icons {
+  display: block;
+}
+.Row3 {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  .ant-layout-header {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+.bgColor {
+  color: rgb(136, 129, 129);
+  &:hover{
+    background-color: #dadbdd;
+    border: none;
+  }
 }

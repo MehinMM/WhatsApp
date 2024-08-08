@@ -4,7 +4,8 @@ import oglan from './oglan1.jpg';
 import usaq from './oglan2.jpg';
 import xanim1 from './qiz1.jpg';
 import xanim2 from './qiz2.jpg';
+import error from './error.png'
 
 export{
-    doctor,aile,oglan,usaq,xanim1,xanim2
+    doctor,aile,oglan,usaq,xanim1,xanim2,error
 }
